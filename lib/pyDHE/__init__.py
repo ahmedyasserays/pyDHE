@@ -95,8 +95,8 @@ circumstances using the getPublicKey() and update() functions.
 """
 
 # imports here
-from Crypto.Random.random import randint
-from Crypto.Util.number import long_to_bytes, bytes_to_long
+from Cryptodome.Random.random import randint
+from Cryptodome.Util.number import long_to_bytes, bytes_to_long
 
 from .DHE_groups import groups
 
